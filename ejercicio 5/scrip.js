@@ -1,14 +1,9 @@
-const personaje ={
-    nombre:"Guerrero",
-    nivel: 10,
-    vida:100,
-    arma: "Espada",
+function mostrarMensaje(){
+    let mensaje = "Hola, este es un mensaje local";
+    console.log(mensaje);
+}
 
-    atacar:function(){
-        console.log("El personaje esta atacando");
-    }
-};
-console.log(personaje.nombre);
-console.log(personaje.arma);
+mostrarMensaje();
+console.log(mensaje);
 
-personaje.atacar();
+/* la variable fue creada con let dentro de la funcion, entonces solo vive ahi dentro */
